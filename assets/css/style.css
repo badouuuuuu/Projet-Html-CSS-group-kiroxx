@@ -1,0 +1,81 @@
+/*--------- Initialize local font for users --------*/
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+
+
+body {
+    font-family: 'Comfortaa-Regular', sans-serif;
+}
+
+/*--------- Header CSS by @badou --------*/
+
+header {
+    background-image: url(../images/header_Background.jpg);
+    width: 1440px;
+    height: 280px;
+    margin: auto;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+li {
+    float: right;
+    padding: 20px;
+}
+
+
+#logo {
+    font-size: 30px;
+    position: relative;
+    display: flex;
+
+}
+
+.topLogo1 {
+    color: white;
+
+}
+
+.topLogo2 {
+    color: #960c0c;
+}
+
+
+
+
+/*--------- Footer CSS by @badou --------*/
+
+
+
+footer {
+    margin: auto;
+    width: 1440px;
+    height: 280px;
+    background-image: url(../images/swirl_pattern.png);
+    background-repeat: repeat;
+    position: fixed;
+    bottom: 0;
+
+}
+
+#footertext {
+    margin-top: 60px;
+    font-size: 40px;
+    position: relative;
+    left: 50%;
+}
+
+#social {
+    position: relative;
+    left: 50%;
+
+}
