@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Comfortaa-Regular';
-    src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+    src: url('./docs/assets/fonts/Comfortaa-Regular.ttf') format('truetype');
     }
 
 body{
