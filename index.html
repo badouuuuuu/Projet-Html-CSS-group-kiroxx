@@ -10,47 +10,50 @@
 <body>
 
 
-
-<div class="ourTeam">
-    <h2 id="ourTeam">Our Team...</h2>
-    <div class="ourTeam1">
-        <h3 class="team">CEO</h3>
-        <img src="assets/images/CEO.png" alt="CEO" title="CEO" class="imageTeam"/>
-        <p class="pteam">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium aperiam quia, id, voluptates repellat sunt tenetur non explicabo possimus perspiciatis qui error, ullam dolor autem reprehenderit vel fuga voluptate.</p>
+<section>
+    <section id="team">
+        <h2>Our Team...</h2>
+        <div class="cardContainer">
+            <img src="assets/images/CEO.png" alt="ceo" title="CEO"/>
+            <div class="card">
+                <h3>CEO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam provident quasi animi, modi quia adipisci suscipit nemo? Dolore cum explicabo quos iure, dolores magni itaque ducimus laudantium natus, rem commodi.</p>
+            </div>
+            <img src="assets/images/COO.png" alt="coo" title="COO"/>
+            <div class="card">
+                <h3>COO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero error rem nostrum aliquid possimus, veritatis vel sapiente adipisci magnam? Harum commodi natus deserunt id itaque laborum aspernatur! Doloremque, a commodi.</p>
+            </div>
+        </div>
+    <div class="cardContainer">
+        <img src="assets/images/CFO.png" alt="CFO" title="CFO"/>
+        <div class="card">
+            <h3>CFO</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, perspiciatis amet. Officia libero laudantium illum expedita voluptate vero eaque, maiores ipsa, ratione nostrum aut similique fuga error, numquam doloremque ut.</p>
+        </div>
+        <img src="assets/images/CTO.png" alt= "CTO" title="CTO"/>
+        <div class="card">
+            <h3>CTO</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quidem natus sed error, sit tempore accusantium magni modi libero laborum ipsam ad dolorum minus laudantium ea alias delectus corrupti placeat.</p>
+        </div>
     </div>
-    <div class="ourTeam1">
-        <h3 class="team">COO</h3>
-        <img src="assets/images/COO.png" alt="coo" title="COO" class="imageTeam"/>
-        <p class="pteam">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellat iure, quasi officia nulla minus esse soluta delectus nisi nobis a ipsam, dolorem quam aliquam ullam est aut odit consequuntur?</p>
-    </div>
-    <div class="ourTeam1">
-        <h3 class="team">CFO</h3>
-        <img src="assets/images/CFO.png" alt="cfo" title="CFO" class="imageTeam"/>
-        <p class="pteam">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ratione consequuntur ex molestiae necessitatibus. Distinctio quae cupiditate voluptates enim commodi, quo optio cum ipsam voluptatum provident harum, impedit maxime aspernatur.</p>
-    </div>
-    <div class="ourTeam1">
-        <h3 class="team">CTO</h3>
-        <img src="assets/images/CTO.png" alt="cto" title="CTO" class="imageTeam"/>
-        <p class="pteam">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, voluptate sed, at mollitia, ducimus corrupti ipsa nisi veritatis accusamus doloremque nostrum. Delectus excepturi magni numquam doloremque minima quos deleniti possimus?</p>
+    </section>
+    <div class="formulaire">
+        <h2 id="formulaire">Need an event?</h2>
+        <form method="post" action="traitement.php">
+            <label for="Name*">Name *</label>
+            <input type="text" name="Name*" id="Name*">
+            <label for="FirstName*">Firstname *</label>
+            <input type="text" name="FirstName*" id="Firstname*">
+            <label for="email*">E-mail *</label>
+            <input type="text" name="email*" id="email*">
+            <label for="description">Description</label>
+            <textarea name="description" id="description"></textarea>
+            <input type="submit" value="Send">
+        </form>
     </div>
 
-</div>
-<div class="formulaire">
-    <h2 id="formulaire">Need an event?</h2>
-    <form method="post" action="traitement.php">
-        <label for="Name*">Name *</label>
-        <input type="text" name="Name*" id="Name*">
-        <label for="FirstName*">Firstname *</label>
-        <input type="text" name="FirstName*" id="Firstname*">
-        <label for="email*">E-mail *</label>
-        <input type="text" name="email*" id="email*">
-        <label for="description">Description</label>
-        <textarea name="description" id="description"></textarea>
-        <input type="submit" value="Send">
-    </form>
-</div>
-
-
+</section>
 
 </body>
 <footer></footer>

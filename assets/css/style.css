@@ -1,0 +1,21 @@
+#team{
+    
+    width: 960px;
+    margin: 0 auto;
+}
+.cardContainer{
+    
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.card {
+    
+    width: 600px;
+}
+h2{
+    text-align: center;
+}
