@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url("../images/header_Background.jpg");
     background-size: 100%;
@@ -23,8 +24,12 @@ header {
     background-color: black;
     position: relative;
     top: 0;
-    font-family: 'Roboto', sans-serif;
+}
 
+/*--------- Menu Header CSS by Youssef --------*/
+
+#topMenu {
+    margin-right: 10%;
 }
 
 ul {
@@ -36,8 +41,9 @@ ul {
 li {
     float: left;
     text-align: right;
-    padding: 8px;
+    padding: 10px;
     font-size: 12px;
+    position: relative;
 }
 
 a {
@@ -45,34 +51,48 @@ a {
     color: #ffffff;
 }
 
-#logo {
-    justify-content: center;
+/*--------- Logo Header CSS by Youssef --------*/
+
+#topLogo {
     margin: 0 auto;
     position: absolute;
+    text-align: center;
+    padding: 0% 35%;
+    margin-top: 9%;
 }
 
 #logoimg {
-    width: 75%
+    width: 75%;
+    text-align: center;
 }
 
 /*--------- Footer CSS by @badou --------*/
 
 footer {
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
-    height: 200px;
+    width: 960px;
+    height: 300px;
     background-image: url(../images/swirl_pattern.png);
     background-repeat: repeat;
-    position: relative;
+    position: absolute;
     bottom: 0;
-
 }
 
 #footertext {
-    font-size: 40px;
-    justify-content: center;
+    width: 960px;
+    font-size: 50px;
+    padding-top: 1%;
+    position: relative;
+    text-align: center;
+
 }
 
-#social {
-    position: absolute;
-    justify-items: center;
+#socialgroup {
+    margin-right: 10%;
+    text-align: center;
+}
+
+.socialicon {
+    padding-left: 10%;
 }
