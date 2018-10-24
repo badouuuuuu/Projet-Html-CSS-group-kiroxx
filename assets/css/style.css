@@ -1,38 +1,67 @@
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+    }
 
-
-.our_events
-{
-
+body{
+    font-family: 'comfortaa',sans-serif; 
 }
 
-h2 
+#our_events
 {
-color: black;
-font-family: Comfortaa-Regular, serif;    
+    width: 900px;
+    margin: auto;
 }
 
-
-.img_left
+h2
 {
-
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+    border-bottom: solid 2px rgb(203,32,40);
+    height: 50px;
+    width: 300px;
 }
 
-.img_right
+#conteneur_titre_events
 {
-
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
-.bloc_1
+.img_event
 {
-
-}
-
-.bloc_2
-{
-
-}
-
-.bloc_3
-{
+    width: 200px;
+    height: 100%;
+    border: solid 1px black;
     
+}
+
+#conteneur_events
+{
+    width: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+
+}
+
+.event
+{
+    margin: 20px;
+    box-shadow: 0px 1px 10px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.event_title
+{
+    background: rgb(203,32,40) top;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 0,8rem;
+    height: 30px;
 }
