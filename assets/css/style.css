@@ -40,13 +40,14 @@ ul {
 li {
     float: left;
     text-align: right;
-    padding: 8px;
-    font-size: 12px;
+    font-size: 14px;
+    
 }
 
 a {
     text-decoration: none;
     color: #ffffff;
+    padding: 10px;
 }
 
 /*--------- Header Logo CSS by Youssef --------*/
@@ -56,41 +57,34 @@ a {
     margin: 0 auto;
     position: absolute;
     justify-content: center;
-    left: 38 %;
-    padding-top: 9%;
+    left: 40%;
+    padding-top: 10%;
 }
 
 #logoimg {
-    width: 75%;
+    width: 65%;
 }
 
 /*--------- Footer CSS by Youssef --------*/
 
 footer {
     margin: 0 auto;
+    width: 960px;
     height: 300px;
     background-image: url(../images/swirl_pattern.png);
     background-repeat: repeat;
-    position: relative;
-    bottom: 0;
-
-}
-
-#footertext {
     font-size: 40px;
-    position: relative;
+    position: absolute;
+    bottom: 0;
     text-align: center;
-
 }
 
 #footerFull {
-    position: relative;
-    text-align: center;
-    padding-top: 24px;
-
+    padding-top: 30px;
 }
 
 .socialicon {
     padding-left: 35px;
     padding-right: 35px;
+    width:60px;
 }
