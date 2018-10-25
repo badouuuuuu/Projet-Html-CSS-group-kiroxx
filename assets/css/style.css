@@ -3,8 +3,13 @@
     src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
     }
 
+html {
+    
+    background-color: #black;
+}
 
 body{
+    width: 960px;
     font-family: 'Comfortaa-Regular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     margin: 0 auto;
     background-color: white;
@@ -66,7 +71,7 @@ a {
 
 #team{
     
-    width: 960px;
+
     margin: 0 auto 200px;
 }
 .cardContainer{
