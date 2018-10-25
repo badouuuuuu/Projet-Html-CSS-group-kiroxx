@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./assets/css/style.css">
    <link rel="stylesheet" href="./assets/fonts/Comfortaa-Regular.ttf"> 
    <title>Main Eventer</title>
 </head>
 <body>
+
+<!------------------------------------------------------------------------------------------------------- Header by Youssef --------------------------------------------------------------------------------------------->
 
     <header>
         <div id="topMenu">
@@ -26,6 +28,14 @@
            </div>
         </div>
     </header>
+
+<!-- Spacertest by Antoine -->
+
+<div id="spacershort">
+        
+    </div>    
+
+<!------------------------------------------------------------------------------------------------------------ Our Team by Julie -------------------------------------------------------------------------------------->
 
     <section id="team">
         <h2>Our Team...</h2>
@@ -54,6 +64,15 @@
         </div>
     </div>
     </section>
+
+
+
+<!-- Spacertest by Antoine -->
+
+<div id="spacer">
+        
+    </div>
+<!------------------------------------------------------------------------------------------------------------- Our Events by Antoine -------------------------------------------------------------------------------->
 
 <section id="our_events">
 
@@ -94,23 +113,54 @@
             </div>
     </div>
 
+<!-- Spacertest by Antoine -->
 
+<div id="spacer">
+        
+    </div>    
 
-<div class="formulaire">
-    <h2 id="formulaire">Need an event?</h2>
-    <form method="post" action="traitement.php">
-        <label for="Name*">Name *</label>
-        <input type="text" name="Name*" id="Name*">
-        <label for="FirstName*">Firstname *</label>
-        <input type="text" name="FirstName*" id="Firstname*">
-        <label for="email*">E-mail *</label>
-        <input type="text" name="email*" id="email*">
-        <label for="description">Description</label>
-        <textarea name="description" id="description"></textarea>
-        <input type="submit" value="Send">
-    </form>
-</div>
+<!----------------------------------------------------------------------------------------------------- Form by Julie--------------------------------------------------------------------------------------------------->
+
+    <section class="formulaire">
+            <h2 id="formulaire">Need an event?</h2>
+            <hr>
+            <form method="post" action="traitement.php">
+                <div class="namecontainer">
+                    <div class="name">
+                        <label for="Name*">Name *</label>
+                        <input type="text" name="Name*" id="Name*">
+                    </div>
+                    <div class="firstname">
+                        <label for="FirstName*">Firstname *</label>
+                        <input type="text" name="FirstName*" id="Firstname*">
+                    </div>
+                </div>    
+                <div class="emailcontainer">
+                    <div class= "label"><label for="email*">E-mail *</label></div>
+                    <div class="input"><input type="text" name="email*" id="email*"></div>
+                </div>
+                <div class="textarea">
+                    <div class="label"><label for="description">Description</label></div>
+                    <div class="textarea1"><textarea type="text" name="description" id="description"></textarea></div>
+                    <div class="label1"><input type="submit" value="Send" class="bouton" target="_blank"></div>
+                </div>
+                
+            </form>
+        </section>
+
+<!-- Spacertest by Antoine -->
+
+<div id="spacer">
+        
+    </div>
+
+        
+<!---------------------------------------------------------------------------------------------------- Footer by Youssef ----------------------------------------------------------------------------------------------->
+
+    <footer>
+        
+    </footer>
 
 </body>
-<footer></footer>
+
 </html>
