@@ -14,7 +14,6 @@ body {
 }
 
 header {
-    font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url("../images/header_Background.jpg");
     background-size: 100%;
@@ -24,20 +23,11 @@ header {
     background-color: black;
     position: sticky;
     top: 0;
-<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
 }
 
 #topMenu {
     position: relative;
-=======
-}
-
-/*--------- Menu Header CSS by Youssef --------*/
-
-#topMenu {
-    margin-right: 10%;
->>>>>>> f15b8635de46fd97b7eb429cc098ecc1ef5ba82b
 }
 
 ul {
@@ -50,9 +40,8 @@ ul {
 li {
     float: left;
     text-align: right;
-    padding: 10px;
+    padding: 8px;
     font-size: 12px;
-    position: relative;
 }
 
 a {
@@ -60,7 +49,6 @@ a {
     color: #ffffff;
 }
 
-<<<<<<< HEAD
 /*--------- Header Logo CSS by Youssef --------*/
 
 
@@ -70,56 +58,31 @@ a {
     justify-content: center;
     left:38%;
     padding-top: 9%;
-=======
-/*--------- Logo Header CSS by Youssef --------*/
-
-#topLogo {
-    margin: 0 auto;
-    position: absolute;
-    text-align: center;
-    padding: 0% 35%;
-    margin-top: 9%;
->>>>>>> f15b8635de46fd97b7eb429cc098ecc1ef5ba82b
 }
 
 #logoimg {
     width: 75%;
-<<<<<<< HEAD
-=======
-    text-align: center;
->>>>>>> f15b8635de46fd97b7eb429cc098ecc1ef5ba82b
 }
 
 /*--------- Footer CSS by Youssef --------*/
 
 footer {
-    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
-<<<<<<< HEAD
-=======
-    width: 960px;
->>>>>>> f15b8635de46fd97b7eb429cc098ecc1ef5ba82b
     height: 300px;
     background-image: url(../images/swirl_pattern.png);
     background-repeat: repeat;
-    position: absolute;
+    position: relative;
     bottom: 0;
+
 }
 
 #footertext {
-<<<<<<< HEAD
     font-size: 40px;
-=======
-    width: 960px;
-    font-size: 50px;
-    padding-top: 1%;
->>>>>>> f15b8635de46fd97b7eb429cc098ecc1ef5ba82b
     position: relative;
     text-align: center;
 
 }
 
-<<<<<<< HEAD
 #footerFull {
     position: relative;
     text-align: center;
@@ -130,13 +93,4 @@ footer {
 .socialicon {
     padding-left: 35px;
     padding-right: 35px;
-=======
-#socialgroup {
-    margin-right: 10%;
-    text-align: center;
-}
-
-.socialicon {
-    padding-left: 10%;
->>>>>>> f15b8635de46fd97b7eb429cc098ecc1ef5ba82b
 }
