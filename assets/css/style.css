@@ -31,6 +31,7 @@ h2{
 body {
     font-family:'Roboto', sans-serif;
 }
+<<<<<<< HEAD
 mark {
     background-color: #B70000;
     color: white;
@@ -119,3 +120,5 @@ button:visited{
     background-color: #B70000;
     color: white;
 }
+=======
+>>>>>>> 48457e43b7aeb9ae1ec63b6988383ec07d0abacb
