@@ -8,6 +8,37 @@ body{
     background-color: white;
 }
 
+#team{
+    
+    width: 960px;
+    margin: 0 auto;
+}
+.cardContainer{
+    
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.card {
+    
+    width: 600px;
+}
+h2{
+    text-align: center;
+    font-family: "Comfortaa-Regular";
+}
+@font-face {
+    font-family: "Cinzel-Regular";
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+body {
+    font-family:'Roboto', sans-serif;
+}
+
+
 #our_events
 {
     width: 800px;
@@ -54,7 +85,7 @@ body{
 
 
 
-h2
+# our_events_title h2
 {
     background-color: white;
     font-size: 2.5em;
