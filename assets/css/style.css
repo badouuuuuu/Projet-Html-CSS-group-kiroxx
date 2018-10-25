@@ -3,17 +3,34 @@
     src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
     }
 
+@font-face {
+    font-family: "Cinzel-Regular";
+    src: url(../fonts/Cinzel-Regular.ttf);
+    }
+    
+
+
 html {
     
-    background-color: #black;
+    background-color: black;
 }
 
 body{
     width: 960px;
-    font-family: 'Comfortaa-Regular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-family: 'Roboto', sans-serif;,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     margin: 0 auto;
     background-color: white;
 }
+
+h2{
+    text-align: center;
+    font-family: "Comfortaa-Regular";  
+    margin-bottom: 1px;
+}
+
+
+/*------------------------------------------------------------------------------------------- Header CSS by Youssef --------------------------------------------------------------------------------------*/
+
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -53,7 +70,11 @@ a {
     padding: 10px;
 }
 
-/*--------- Header Logo CSS by Youssef --------*/
+
+
+
+
+/*-------------- Header Logo CSS by Youssef ---------*/
 
 
 #logo {
@@ -87,25 +108,21 @@ a {
     
     width: 600px;
 }
-h2{
-    text-align: center;
-    font-family: "Comfortaa-Regular";
-}
-@font-face {
-    font-family: "Cinzel-Regular";
-    src: url(../fonts/Cinzel-Regular.ttf);
-}
-body {
-    font-family:'Roboto', sans-serif;
-}
 
+    
+
+
+
+
+/* -----------------------------------------------------------------------------------------Our Event by Antoine---------------------------------------------------------------------------------------- */
 
 #our_events
 {
     width: 800px;
     background-color: white;
     margin: auto;
-  
+    
+    
 }
 
 #conteneur_titre_events
@@ -126,7 +143,6 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 200px;
     
 
 }
@@ -146,7 +162,7 @@ body {
 
 
 
-# our_events_title h2
+#our_events_title h2
 {
     background-color: white;
     font-size: 2.5em;
@@ -265,3 +281,127 @@ body {
     margin-bottom: 15px;
     overflow: hidden;
 }
+
+/* -----Spacertest by Antoine------------------------------------- */
+
+#spacer{
+    height: 300px;
+}
+
+#spacershort{
+    height: 80px;
+}
+
+
+/* --------------------------------------------------------By Julie--------------------------------------------- */
+
+
+
+#team{
+    
+    width: 960px;
+    margin: 0 auto;
+}
+.cardContainer{
+    
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.card {
+    
+    width: 600px;
+}
+
+mark {
+    background-color: #B70000;
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: normal !important;
+    font-size: 15px;
+}
+hr {
+    width: 110px;
+    margin-top: 5px;
+    border-color: #B70000;
+}
+form {
+    width: 600px;
+    padding: 50px;
+}
+label {
+    padding: 10px;
+    display: block;
+
+}
+
+input {
+    display: block;
+    border: 1px #B70000 solid;
+    border-radius: 20px;
+}
+.textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.namecontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.emailcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.formulaire {
+    width: 700px;
+    
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    
+    
+}
+.firstname {
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    height: 150px;
+    resize: auto;
+    border: 1px #B70000 solid;
+    border-radius: 20px;   
+}
+.bouton {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.label1 {
+    display: block;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.bouton:hover {
+    background-color: #B70000;
+    color: white;
+}
+button:visited{
+    background-color: #B70000;
+    color: white;
+}
+
