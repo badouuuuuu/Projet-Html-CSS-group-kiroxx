@@ -6,7 +6,7 @@
 }
 
 section {
-    padding-bottom: 100px;
+    padding-top: 100px;
 }
 /*--------- Header CSS by Youssef --------*/
 
@@ -307,8 +307,9 @@ button:visited{
     width: 800px;
     height: 250px;
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     justify-content: space-between;
+    margin-top: 200px;
 }
 
 #conteneur_events
