@@ -5,6 +5,9 @@
     src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
 }
 
+section {
+    padding-bottom: 100px;
+}
 /*--------- Header CSS by Youssef --------*/
 
 body {
@@ -20,7 +23,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url("../images/header_Background.jpg");
 
-    background-size:auto 100%; 
+    background-size:100% 100%; 
     background-repeat: no-repeat;
     background-position: center top;
     font-family: 'Roboto', sans-serif;
@@ -41,7 +44,7 @@ ul {
 }
 
 li {
-    float: left;
+    display: inline;
     text-align: right;
     font-size: 20px;
 }
@@ -68,6 +71,8 @@ a {
 /*--------- WhoWeAre CSS by Jordan --------*/
 
 #Who_div0 {
+    padding-top: 100px;
+    font-family:'Roboto', sans-serif;
     background-color: white;
     margin:0 auto;
     width:960px;
@@ -78,6 +83,15 @@ a {
         margin: 0 auto;
 
     }
+
+    #floatting_box {
+        position: absolute;
+        background-color: #B70000;
+        font-size: 16px;
+        color: white;
+        border: 3px solid white;
+    }
+
         #Who_div0_section0_div0 {
             display: inline-flex;
             height: 66%;
@@ -100,18 +114,14 @@ a {
                 #Who_div0_section0_div0_div1_div0 {
                     height: 50%;
                     text-align: left;
-                    align-content-: center;
+                    align-content: center;
                 }
                     #Who_div0_section0_div0_div1_div0_h20 {
                         font-size: 2.5em;
                         margin-bottom: 4px;
-                        font-family: "Comfortaa-Regular";
                     }
-                    #Who_div0_section0_div0_div1_div0_hr0 {
-                        display: block;
-                        color: red;
-                        height: 3px;
-                    }
+                    
+                    
                 #Who_div0_section0_div0_div1_div1 {
                     height: 50%;
                     text-align: left;
@@ -310,8 +320,6 @@ button:visited{
     display: flex;
     justify-content: space-between;
     margin-bottom: 200px;
-    
-
 }
 
 #our_events_title
@@ -324,12 +332,10 @@ button:visited{
     justify-content: flex-start;
     align-self: top;
     position: relative;
-   
 }
 
 
-
-# our_events_title h2
+#our_events_title h2
 {
     background-color: white;
     font-size: 2.5em;
@@ -340,8 +346,6 @@ button:visited{
     overflow-x: visible;
     position: absolute;
     top: 0;
-    
-
 }
 
 #events_title_ul
@@ -352,9 +356,7 @@ button:visited{
     align-self: center;
     position: absolute;
     top: 80px;
-   
 }
-
 
 
 #img_event_left
@@ -461,7 +463,8 @@ button:visited{
 /*--------- Footer CSS by Youssef --------*/
 
 footer {
-    font-family: 'Roboto', sans-serif;
+
+    color:black;
     margin: 0 auto;
     width: 100%;
     height: 300px;
@@ -473,7 +476,6 @@ footer {
 }
 
 #footerFull {
-    padding-top: 30px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -481,8 +483,8 @@ footer {
 }
 
 .socialicon {
-    padding-left: 35px;
-    padding-right: 35px;
-    width:60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width:45px;
 
 }
