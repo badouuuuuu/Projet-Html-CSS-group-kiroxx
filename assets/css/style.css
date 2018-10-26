@@ -8,45 +8,48 @@
 /*--------- Header CSS by Youssef --------*/
 
 body {
-    width: 960px;
+
     margin: 0 auto;
     font-family: 'Comfortaa-Regular';
 }
 
 header {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url("../images/header_Background.jpg");
-    background-size: 100%;
+
+    background-size:auto 100%; 
     background-repeat: no-repeat;
-    height: 323px;
-    margin: 0 auto;
-    background-color: black;
-    position: sticky;
-    top: 0;
+    background-position: center top;
     font-family: 'Roboto', sans-serif;
 }
 
 #topMenu {
-    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 ul {
     list-style-type: none;
     color: white;
     float: right;
-    margin-right: 120px;
+    margin-right: 15%;
+    padding-top: 1%;
 }
 
 li {
     float: left;
     text-align: right;
-    padding: 8px;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 a {
     text-decoration: none;
     color: #ffffff;
+    padding: 10px;
 }
 
 /*--------- Header Logo CSS by Youssef --------*/
@@ -54,43 +57,39 @@ a {
 
 #logo {
     margin: 0 auto;
-    position: absolute;
+    display:block;
+    flex-direction: column;
     justify-content: center;
-    left: 38 %;
-    padding-top: 9%;
+    align-items: center;
+    padding-top: 150px;
 }
 
-#logoimg {
-    width: 75%;
-}
+
 
 /*--------- Footer CSS by Youssef --------*/
 
 footer {
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    width: 100%;
     height: 300px;
     background-image: url(../images/swirl_pattern.png);
     background-repeat: repeat;
-    position: relative;
-    bottom: 0;
-
-}
-
-#footertext {
     font-size: 40px;
-    position: relative;
-    text-align: center;
-
+    bottom: 0;
+    margin: 0 auto;
 }
 
 #footerFull {
-    position: relative;
-    text-align: center;
-    padding-top: 24px;
-
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
 .socialicon {
     padding-left: 35px;
     padding-right: 35px;
+    width:60px;
 }
