@@ -1,45 +1,53 @@
+/*--------- Initialize local font for users --------*/
+
 @font-face {
     font-family: 'Comfortaa-Regular';
     src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
-    }
+}
 
+section {
+    padding-bottom: 100px;
+}
 
-body{
-    font-family: 'Comfortaa-Regular','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+/*--------- Header CSS by Youssef --------*/
+
+body {
+
     margin: 0 auto;
-    background-color: white;
+    font-family: 'Comfortaa-Regular';
 }
 
 header {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url("../images/header_Background.jpg");
-    background-size: 100%;
+
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 323px;
-    margin: 0 auto;
-    background-color: black;
-    position: relative;
-    top: 0;
+    background-position: center top;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 200px;
 }
 
 #topMenu {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 ul {
     list-style-type: none;
     color: white;
     float: right;
-    margin-right: 120px;
+    margin-right: 15%;
+    padding-top: 1%;
 }
 
 li {
-    float: left;
+    display: inline;
     text-align: right;
-    font-size: 14px;
-    
+    font-size: 20px;
 }
 
 a {
@@ -53,59 +61,273 @@ a {
 
 #logo {
     margin: 0 auto;
-    position: absolute;
+    display: block;
+    flex-direction: column;
     justify-content: center;
-    left: 42%;
-    padding-top: 10%;
-
+    align-items: center;
+    padding-top: 150px;
 }
 
-#logoimg {
-    width: 65%;
-}
 
-#team{
-    
+/*--------- WhoWeAre CSS by Jordan --------*/
+
+#Who_div0 {
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 0 auto;
     width: 960px;
-    margin: 0 auto 200px;
 }
-.cardContainer{
-    
-    width: 700px;
+
+#Who_div0_section0 {
+    height: auto;
+    align-content: center;
+    margin: 0 auto;
+
+}
+
+#floatting_box {
+    position: absolute;
+    background-color: #B70000;
+    font-size: 16px;
+    color: white;
+    border: 3px solid white;
+}
+
+#Who_div0_section0_div0 {
+    display: inline-flex;
+    height: 66%;
+}
+
+#Who_div0_section0_div0_div0 {
+    width: 50%;
+    align-content: left;
+
+}
+
+#Who_div0_section0_div0_div0_img0 {
+    width: 100%;
+    height: 100%;
+}
+
+#Who_div0_section0_div0_div1 {
+    width: 50%;
+    height: auto;
+    align-content: right;
+    margin-left: 30px;
+}
+
+#Who_div0_section0_div0_div1_div0 {
+    height: 50%;
+    text-align: left;
+    align-content: center;
+}
+
+#Who_div0_section0_div0_div1_div0_h20 {
+    font-size: 2.5em;
+    margin-bottom: 4px;
+}
+
+
+#Who_div0_section0_div0_div1_div1 {
+    height: 50%;
+    text-align: left;
+}
+
+#Who_div0_section0_div0_div1_div1_p0 {
+    text-align: left;
+    margin-bottom: auto;
+    font-size: 1.05em;
+    font-family: "Comfortaa-Regular";
+    color: grey;
+}
+
+#Who_div0_section0_div1 {
+    ;
+    height: auto;
+    margin-top: 10px;
+}
+
+#Who_div0_section0_div1_p0 {
+    font-size: 1.05em;
+    text-align: justify;
+    font-family: "Comfortaa-Regular";
+    color: grey;
+}
+
+
+
+/*--------- our Team CSS by Julie --------*/
+
+
+#team {
+
+    width: 960px;
+    margin: 0 auto;
+}
+
+.cardContainer {
+
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
 
-}
 .card {
-    
-    width: 600px;
+
+    width: 800px;
+    padding-right: 100px;
 }
-h2{
+
+h2 {
     text-align: center;
     font-family: "Comfortaa-Regular";
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: black;
 }
-@font-face {
-    font-family: "Cinzel-Regular";
-    src: url(../fonts/Cinzel-Regular.ttf);
-}
+
 body {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: grey;
 }
 
+mark {
+    background-color: #B70000;
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: normal !important;
+    font-size: 15px;
+}
 
-#our_events
-{
+hr {
+    width: 110px;
+    margin-top: 5px;
+    border-color: #B70000;
+}
+
+form {
+    width: 600px;
+    padding: 50px;
+}
+
+label {
+    padding: 10px;
+    display: block;
+
+}
+
+input {
+    display: block;
+    border: 1px #B70000 solid;
+    border-radius: 20px;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.namecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emailcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulaire {
+    width: 700px;
+    margin: 0 auto;
+    color: black;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+
+
+}
+
+.firstname {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    resize: auto;
+    border: 1px #B70000 solid;
+    border-radius: 20px;
+}
+
+.bouton {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.label1 {
+    display: block;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.bouton:hover {
+    background-color: #B70000;
+    color: white;
+}
+
+button:visited {
+    background-color: #B70000;
+    color: white;
+}
+
+.titreform {
+    text-align: left;
+    font-family: "Comfortaa-Regular";
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: black;
+
+}
+
+.hr2 {
+    width: 220px;
+    margin-top: 5px;
+    border-color: #B70000;
+    float: left;
+
+}
+
+/*--------- our Events by Antoine --------*/
+
+#our_events {
     width: 800px;
     background-color: white;
     margin: auto;
-  
+
 }
 
-#conteneur_titre_events
-{
-    background-color:white;
+#conteneur_titre_events {
+    background-color: white;
     width: 800px;
     height: 250px;
     display: flex;
@@ -113,8 +335,7 @@ body {
     justify-content: space-between;
 }
 
-#conteneur_events
-{
+#conteneur_events {
     background-color: white);
     width: 700px;
     height: 250px;
@@ -122,12 +343,9 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 200px;
-    
-
 }
 
-#our_events_title
-{
+#our_events_title {
     background-color: white;
     width: 260px;
     height: 100px;
@@ -136,13 +354,10 @@ body {
     justify-content: flex-start;
     align-self: top;
     position: relative;
-   
 }
 
 
-
-# our_events_title h2
-{
+#our_events_title h2 {
     background-color: white;
     font-size: 2.5em;
     font-weight: 100;
@@ -152,34 +367,27 @@ body {
     overflow-x: visible;
     position: absolute;
     top: 0;
-    
-
 }
 
-#events_title_ul
-{
+#events_title_ul {
     width: 200px;
     height: 3px;
     background-color: #9D1111;
     align-self: center;
     position: absolute;
     top: 80px;
-   
 }
 
 
-
-#img_event_left
-{
+#img_event_left {
     width: 270px;
     height: 100%;
     background-color: white(22, 120, 150);
-    
-    
+
+
 }
 
-#img_event_right
-{
+#img_event_right {
     width: 270px;
     height: 100%;
     background-color: white77, 4, 4);
@@ -187,14 +395,12 @@ body {
     margin-top: 15px;
 }
 
-.img_event
-{
+.img_event {
     width: 80%;
 }
 
 
-.event
-{
+.event {
     background-color: white;
     width: 200px;
     height: 230px;
@@ -206,51 +412,46 @@ body {
     align-items: center;
 }
 
-.event_title
-{
+.event_title {
     background: #9D1111 top;
     text-align: center;
     color: white;
     padding: 5px;
-    font-size: 0,8rem;
+    font-size: 0, 8rem;
     height: 20px;
     width: 260px;
 }
 
-.event_month
-{
+.event_month {
     position: absolute;
     top: 40px;
     font-weight: normal;
     color: #5DE2FA;
-    
+
 }
 
-.event_day
-{
+.event_day {
     position: absolute;
     top: 65px;
     font-weight: normal;
-    
+
 }
 
-.event_descr
-{
+.event_descr {
     position: absolute;
     top: 90px;
     text-align: center;
     width: 115px;
     font-weight: bold;
     font-size: 0.8em;
-    
+
 }
 
-.event  p
-{
+.event p {
     background-color: white;
     width: 100px;
     height: 80px;
-    
+
     text-align: center;
     font-size: 0.7em;
     bottom: 0;
@@ -259,4 +460,32 @@ body {
     margin-right: 50px;
     margin-bottom: 15px;
     overflow: hidden;
+}
+
+/*--------- Footer CSS by Youssef --------*/
+
+footer {
+
+    color: black;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/swirl_pattern.png);
+    background-repeat: repeat;
+    font-size: 40px;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+#footerFull {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.socialicon {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 45px;
 }
