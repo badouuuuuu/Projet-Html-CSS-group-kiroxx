@@ -8,38 +8,42 @@
 /*--------- Header CSS by Youssef --------*/
 
 body {
-    width: 960px;
+
     margin: 0 auto;
     font-family: 'Comfortaa-Regular';
 }
 
 header {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url("../images/header_Background.jpg");
-    background-size: 100%;
+
+    background-size:auto 100%; 
     background-repeat: no-repeat;
-    height: 323px;
-    margin: 0 auto;
-    position: relative;
-    top: 0;
+    background-position: center top;
     font-family: 'Roboto', sans-serif;
 }
 
 #topMenu {
-    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 ul {
     list-style-type: none;
     color: white;
     float: right;
-    margin-right: 120px;
+    margin-right: 15%;
+    padding-top: 1%;
 }
 
 li {
     float: left;
     text-align: right;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 a {
@@ -53,32 +57,35 @@ a {
 
 #logo {
     margin: 0 auto;
-    position: absolute;
+    display:block;
+    flex-direction: column;
     justify-content: center;
-    left: 40%;
-    padding-top: 10%;
+    align-items: center;
+    padding-top: 150px;
 }
 
-#logoimg {
-    width: 65%;
-}
+
 
 /*--------- Footer CSS by Youssef --------*/
 
 footer {
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
-    width: 960px;
+    width: 100%;
     height: 300px;
     background-image: url(../images/swirl_pattern.png);
     background-repeat: repeat;
     font-size: 40px;
-    position: absolute;
     bottom: 0;
-    text-align: center;
+    margin: 0 auto;
 }
 
 #footerFull {
     padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
 .socialicon {
