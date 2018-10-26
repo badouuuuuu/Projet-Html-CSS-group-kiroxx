@@ -1,67 +1,54 @@
+/*--------- Initialize local font for users --------*/
+
 @font-face {
     font-family: 'Comfortaa-Regular';
     src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
-    }
-
-@font-face {
-    font-family: "Cinzel-Regular";
-    src: url(../fonts/Cinzel-Regular.ttf);
-    }
-    
-
-
-html {
-    
-    background-color: black;
 }
 
-body{
-    width: 960px;
-    font-family: 'Roboto', sans-serif;,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    margin: 0 auto;
+
+/*--------- Header CSS by Youssef --------*/
+
+body {
     background-color: white;
+    margin: 0 auto;
+    font-family: 'Comfortaa-Regular';
 }
 
-h2{
-    text-align: center;
-    font-family: "Comfortaa-Regular";  
-    margin-bottom: 1px;
+section {
+    padding-bottom: 100px;
 }
-
-
-/*------------------------------------------------------------------------------------------- Header CSS by Youssef --------------------------------------------------------------------------------------*/
 
 
 header {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url("../images/header_Background.jpg");
-    background-size: 100%;
+    background-size:100% 100%; 
     background-repeat: no-repeat;
-    height: 323px;
-    margin: 0 auto;
-    background-color: black;
-    position: relative;
-    top: 0;
+    background-position:  top;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 200px;
 }
 
 #topMenu {
-    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 ul {
     list-style-type: none;
     color: white;
     float: right;
-    margin-right: 120px;
+    margin-right: 13%;
+    padding-top: 1%;
 }
 
 li {
     float: left;
     text-align: right;
     font-size: 14px;
-    
 }
 
 a {
@@ -70,59 +57,237 @@ a {
     padding: 10px;
 }
 
-
-
-
-
-/*-------------- Header Logo CSS by Youssef ---------*/
-
+/*--------- Header Logo CSS by Youssef --------*/
 
 #logo {
     margin: 0 auto;
-    position: absolute;
+    flex-direction: column;
     justify-content: center;
-    left: 42%;
-    padding-top: 10%;
-
+    align-items: center;
+    padding-top:8%;
+    padding-left:5%;
 }
 
 #logoimg {
-    width: 65%;
+    width: 80%;
 }
 
-#team{
-    
+/*--------- WhoWeAre CSS by Jordan --------*/
 
-    margin: 0 auto 200px;
+#Who_div0 {
+    background-color: white;
+    margin:0 auto;
+    width:960px;
+}
+    #Who_div0_section0 {
+        height: auto;
+        align-content: center;
+        margin: 0 auto;
+        font-family: 'Roboto', sans-serif;
+
+    }
+        #Who_div0_section0_div0 {
+            display: inline-flex;
+            height: 66%;
+        }
+            #Who_div0_section0_div0_div0 {
+                width: 50%;
+                align-content: left;
+
+            }
+                #Who_div0_section0_div0_div0_img0 {
+                    width: 100%;
+                    height: 100%;
+                }
+            #Who_div0_section0_div0_div1 {
+                width: 50%;
+                height: auto;
+                align-content: right;
+                margin-left: 30px;
+            }
+                #Who_div0_section0_div0_div1_div0 {
+                    height: 50%;
+                    text-align: left;
+                    align-content: center;
+                }
+                    #Who_div0_section0_div0_div1_div0_h20 {
+                        font-size: 2.5em;
+                        margin-bottom: 4px;
+                    }
+
+                #Who_div0_section0_div0_div1_div1 {
+                    height: 50%;
+                    text-align: left;
+                }
+                    #Who_div0_section0_div0_div1_div1_p0 {
+                        text-align: left;
+                        margin-bottom: auto;
+                        font-size: 14p;
+                        color: grey;
+                    }
+
+        #Who_div0_section0_div1 {
+            height: auto;
+            margin-top: 10px;
+        }
+            #Who_div0_section0_div1_p0 {
+                font-size: 1.05em;
+                text-align: justify;
+                color: grey;
+            }
+
+
+
+/*--------- our Team CSS by Julie --------*/
+
+
+#team {
+    
+    width: 960px;
+    margin: 0 auto;
 }
 .cardContainer{
-    
-    width: 700px;
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
 }
+
 .card {
-    
-    width: 600px;
+    width: 800px;
+    padding-right: 100px;
 }
 
+h2{
+    text-align: center;
+    font-family: "Comfortaa-Regular";  
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: black;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    color: grey;
+}
+
+mark {
+    background-color: #B70000;
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: normal !important;
+    font-size: 15px;
+}
+hr {
+    width: 110px;
+    margin-top: 5px;
+    border-color: #B70000;
+}
+form {
+    width: 600px;
+    padding: 50px;
+}
+label {
+    padding: 10px;
+    display: block;
+
+}
+
+input {
+    display: block;
+    border: 1px #B70000 solid;
+    border-radius: 20px;
+}
+.textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.namecontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.emailcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.formulaire {
+    width: 700px;
+    margin: 0 auto;
+    color: black;
     
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    
+    
+}
+.firstname {
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    height: 150px;
+    resize: auto;
+    border: 1px #B70000 solid;
+    border-radius: 20px;   
+}
+.bouton {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.label1 {
+    display: block;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.bouton:hover {
+    background-color: #B70000;
+    color: white;
+}
+button:visited{
+    background-color: #B70000;
+    color: white;
+}
 
+.titreform {
+    text-align: left;
+    font-family: "Comfortaa-Regular";  
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: black;
+    
+}
+.hr2 {
+    width: 220px;
+    margin-top: 5px;
+    border-color: #B70000;
+    float: left;
 
+}
 
-
-/* -----------------------------------------------------------------------------------------Our Event by Antoine---------------------------------------------------------------------------------------- */
+/*--------- our Events by Antoine --------*/
 
 #our_events
 {
     width: 800px;
     background-color: white;
     margin: auto;
-    
-    
+  
 }
 
 #conteneur_titre_events
@@ -143,8 +308,6 @@ a {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    
-
 }
 
 #our_events_title
@@ -161,8 +324,8 @@ a {
 }
 
 
-
 #our_events_title h2
+
 {
     background-color: white;
     font-size: 2.5em;
@@ -173,8 +336,6 @@ a {
     overflow-x: visible;
     position: absolute;
     top: 0;
-    
-
 }
 
 #events_title_ul
@@ -185,7 +346,6 @@ a {
     align-self: center;
     position: absolute;
     top: 80px;
-   
 }
 
 
@@ -195,8 +355,6 @@ a {
     width: 270px;
     height: 100%;
     background-color: white(22, 120, 150);
-    
-    
 }
 
 #img_event_right
@@ -210,7 +368,7 @@ a {
 
 .img_event
 {
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -282,126 +440,35 @@ a {
     overflow: hidden;
 }
 
-/* -----Spacertest by Antoine------------------------------------- */
+/*--------- Footer CSS by Youssef --------*/
 
-#spacer{
-    height: 300px;
-}
-
-#spacershort{
-    height: 80px;
-}
-
-
-/* --------------------------------------------------------By Julie--------------------------------------------- */
-
-
-
-#team{
-    
-    width: 960px;
-    margin: 0 auto;
-}
-.cardContainer{
-    
-    width: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-
-}
-.card {
-    
-    width: 600px;
-}
-
-mark {
-    background-color: #B70000;
-    color: white;
-    padding-left: 10px;
-    padding-right: 20px;
-    font-weight: normal !important;
-    font-size: 15px;
-}
-hr {
-    width: 110px;
-    margin-top: 5px;
-    border-color: #B70000;
-}
-form {
-    width: 600px;
-    padding: 50px;
-}
-label {
-    padding: 10px;
-    display: block;
-
-}
-
-input {
-    display: block;
-    border: 1px #B70000 solid;
-    border-radius: 20px;
-}
-.textarea {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-}
-.namecontainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.emailcontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-}
-.formulaire {
-    width: 700px;
-    
-}
-.name{
-    display: flex;
-    flex-direction: column;
-    padding-right: 100px;
-    
-    
-}
-.firstname {
-    display: flex;
-    flex-direction: column;
-}
-textarea {
-    display: flex;
-    flex-direction:column;
-    width: 300px;
-    height: 150px;
-    resize: auto;
-    border: 1px #B70000 solid;
-    border-radius: 20px;   
-}
-.bouton {
-    padding-top: 7px;
-    padding-bottom: 7px;
-    width: 100px;
-    background-color: white;
+footer {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
-.label1 {
-    display: block;
-    padding-top: 10px;
-    padding-left: 50px;
-}
-.bouton:hover {
-    background-color: #B70000;
-    color: white;
-}
-button:visited{
-    background-color: #B70000;
-    color: white;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/swirl_pattern.png);
+    background-repeat: repeat;
+    font-size: 40px;
+    bottom: 0;
+    margin: 0 auto;
 }
 
+#footertext {
+    color:black;
+}
+
+#footerFull {
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.socialicon {
+    padding-left: 25px;
+    padding-right: 25px;
+    width:45px;
+
+}
