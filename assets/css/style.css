@@ -92,4 +92,146 @@ footer {
     padding-left: 35px;
     padding-right: 35px;
     width:60px;
+
+}
+
+#team {
+    
+    width: 960px;
+    margin: 0 auto;
+}
+.cardContainer{
+    
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    
+    width: 800px;
+    padding-right: 100px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Comfortaa-Regular";  
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: black;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    color: grey;
+}
+
+mark {
+    background-color: #B70000;
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: normal !important;
+    font-size: 15px;
+}
+hr {
+    width: 110px;
+    margin-top: 5px;
+    border-color: #B70000;
+}
+form {
+    width: 600px;
+    padding: 50px;
+}
+label {
+    padding: 10px;
+    display: block;
+
+}
+
+input {
+    display: block;
+    border: 1px #B70000 solid;
+    border-radius: 20px;
+}
+.textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.namecontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.emailcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.formulaire {
+    width: 700px;
+    margin: 0 auto;
+    color: black;
+    
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    
+    
+}
+.firstname {
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    height: 150px;
+    resize: auto;
+    border: 1px #B70000 solid;
+    border-radius: 20px;   
+}
+.bouton {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.label1 {
+    display: block;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.bouton:hover {
+    background-color: #B70000;
+    color: white;
+}
+button:visited{
+    background-color: #B70000;
+    color: white;
+}
+
+.titreform {
+    text-align: left;
+    font-family: "Comfortaa-Regular";  
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: black;
+    
+}
+.hr2 {
+    width: 220px;
+    margin-top: 5px;
+    border-color: #B70000;
+    float: left;
+
 }
