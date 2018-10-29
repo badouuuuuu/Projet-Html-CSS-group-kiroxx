@@ -71,30 +71,29 @@ a {
     background-color: white;
     margin:0 auto;
     width:960px;
+    align-content: center;
 }
     #Who_div0_section0 {
         height: auto;
-        align-content: center;
         margin: 0 auto;
-
+        width: 700px;
+        margin-top: 75px;
+        margin-bottom: 90px;
     }
         #Who_div0_section0_div0 {
             display: inline-flex;
-            height: 66%;
         }
             #Who_div0_section0_div0_div0 {
-                width: 50%;
-                align-content: left;
-
+                width: 340px;
             }
                 #Who_div0_section0_div0_div0_img0 {
+                    height: auto;
+                    margin: 5px;
                     width: 100%;
-                    height: 100%;
                 }
             #Who_div0_section0_div0_div1 {
                 width: 50%;
-                height: auto;
-                align-content: right;
+                align-content: left;
                 margin-left: 30px;
             }
                 #Who_div0_section0_div0_div1_div0 {
@@ -103,25 +102,23 @@ a {
                     align-content-: center;
                 }
                     #Who_div0_section0_div0_div1_div0_h20 {
-                        font-size: 2.5em;
+                        font-size: 3.2em;
                         margin-bottom: 4px;
-                        font-family: "Comfortaa-Regular";
+                        font-family: 'Comfortaa-Regular';
+                        font-weight: normal;
+                        text-decoration: underline solid red;
                     }
-                    #Who_div0_section0_div0_div1_div0_hr0 {
-                        display: block;
-                        color: red;
-                        height: 3px;
-                    }
+                    /*#Who_div0_section0_div0_div1_div0_hr0 {
+                    }*/
                 #Who_div0_section0_div0_div1_div1 {
                     height: 50%;
-                    text-align: left;
                 }
                     #Who_div0_section0_div0_div1_div1_p0 {
                         text-align: left;
-                        margin-bottom: auto;
-                        font-size: 1.05em;
-                        font-family: "Comfortaa-Regular";
+                        font-size: 1.25em;
+                        font-family: 'Roboto';
                         color: grey;
+                        opacity: 0.85;
                     }
 
         #Who_div0_section0_div1 {;
@@ -129,12 +126,26 @@ a {
             margin-top: 10px;
         }
             #Who_div0_section0_div1_p0 {
-                font-size: 1.05em;
-                text-align: justify;
-                font-family: "Comfortaa-Regular";
+                font-size: 1.25em;
+                font-family: 'Roboto';
                 color: grey;
+                opacity: 0.85;
             }
-
+#floatting_box {
+	position: relative;
+	background-color: #B70000;
+	font-size: 16px;
+	border: 3px solid white;
+	left: -80px;
+	top: 65px;
+	width: 150px;
+	height: 40px;
+	padding-left: 4px;
+}
+#floatting_box_text {
+	color: white;
+	opacity: 0.85;
+}
 
 
 /*--------- our Team CSS by Julie --------*/
