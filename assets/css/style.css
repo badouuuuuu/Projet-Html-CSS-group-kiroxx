@@ -6,14 +6,12 @@
 }
 
 section {
-    width: 960px;
     padding-bottom: 130px;
 }
 
 /*--------- Header CSS by Youssef --------*/
 
 body {
-
     margin: 0 auto;
     font-family: 'Comfortaa-Regular';
 }
@@ -77,7 +75,7 @@ a {
     font-family: 'Roboto', sans-serif;
     background-color: white;
     margin: 0 auto;
-    width: 960px;
+    width: 800px;
 }
 
 #Who_div0_section0 {
