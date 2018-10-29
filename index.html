@@ -1,208 +1,482 @@
-<!--------- De Ré Jordan -------->
-<!DOCTYPE html>
-<html lang="en">
-<!--- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+/*--------- Initialize local font for users --------*/
 
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/fonts/Comfortaa-Regular.ttf">
-    <title>Main Eventer</title>
-</head>
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+}
 
-<body>
-    <!--------- header by Youssef -------->
-    <header>
-        <div id="topMenu">
-            <nav>
-                <ul>
-                    <li><a href="#Who_div0_div0">About</a></li>
-                    <li><a href="#ourTeam">Team</a></li>
-                    <li><a href="">Events</a></li>
-                    <li><a href="#formulaire">Nous Contacter</a></li>
-                </ul>
-            </nav>
-            <div id="logo">
-                <img id="logoimg" src="./assets/images/LOGO.png">
-            </div>
-        </div>
-    </header>
+section {
+    padding-bottom: 130px;
+}
 
-    <!--------- Corps du Site Web by @teamkiroxx -------->
+/*--------- Header CSS by Youssef --------*/
 
-    <!--- WhoWeAre by Jordan --->
+body {
+    margin: 0 auto;
+    font-family: 'Comfortaa-Regular';
+}
 
-    <div id="Who_div0">
-        <section id="Who_div0_section0">
-            <div id="floatting_box">
-                <span id="floatting_box_text">Best people agency in Belgium</span>
-            </div>
-            <div id="Who_div0_section0_div0">
-                <div id="Who_div0_section0_div0_div0">
-                    <img src="assets/images/imageBiere28.png" id="Who_div0_section0_div0_div0_img0">
-                </div>
-                <div id="Who_div0_section0_div0_div1">
-                    <div id="Who_div0_section0_div0_div1_div0">
-                        <h2 id="Who_div0_section0_div0_div1_div0_h20">Who we are...</h2>
-                        <!---- <hr id="Who_div0_section0_div0_div1_div0_hr0"> ---->
-                    </div>
-                    <div id="Who_div0_section0_div0_div1_div1">
-                        <p id="Who_div0_section0_div0_div1_div1_p0">Look, just because I don't be givin' no man a foot
-                        massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin'
-                        house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better
-                        paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?</p>
-                    </div>
-                </div>
-            </div>
-            <div id="Who_div0_section0_div1">
-                <p id="Who_div0_section0_div1_p0">Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see little Asian child with a blank
-                expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters
-                in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store,
-                because you're here shopping for an infant named Jeb.</p>
-            </div>
-        </section>
-    </div>
+header {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("../images/header_Background.jpg");
 
-        <!--- our Team by Julie --->
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: 'Roboto', sans-serif;
+}
 
-        <section>
-            <section id="team">
-                <h2>Our Team...</h2>
-                <hr>
-                <div class="cardContainer">
-                    <img src="assets/images/CEO.png" alt="ceo" title="CEO" />
-                    <div class="card">
-                        <h3><mark>CEO</mark></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore</p>
-                    </div>
-                    <img src="assets/images/COO.png" alt="coo" title="COO" />
-                    <div class="card">
-                        <h3><mark>COO</mark></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore</p>
-                    </div>
-                </div>
-                <div class="cardContainer">
-                    <img src="assets/images/CFO.png" alt="CFO" title="CFO" />
-                    <div class="card">
-                        <h3><mark>CFO</mark></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore </p>
-                    </div>
-                    <img src="assets/images/CTO.png" alt="CTO" title="CTO" />
-                    <div class="card">
-                        <h3><mark>CTO</mark></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore</p>
-                    </div>
-                </div>
-            </section>
+#topMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-            <!--- Our Events by Antoine --->
+ul {
+    list-style-type: none;
+    color: white;
+    float: right;
+    margin-right: 15%;
+    padding-top: 1%;
+}
+
+li {
+    display: inline;
+    text-align: right;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/*--------- Header Logo CSS by Youssef --------*/
 
 
-            <section id="our_events">
-
-                <div id="conteneur_titre_events">
-                    <div id="img_event_left">
-                        <img class="img_event" src="./assets/images/popImageClock.png" alt="popImageClock" />
-                    </div>
-                    <div id="our_events_title">
-                        <h2>Our Events</h2>
-                        <div id="events_title_ul"></div>
-                    </div>
-                    <div id="img_event_right">
-                        <img class="img_event" src="./assets/images/PopimageBeer.png" alt="PopimageBeer" />
-                    </div>
-                </div>
-
-                <div id="conteneur_events">
-                    <div class="event">
-                        <div class="event_title">Salsa Course</div>
-                        <div class="event_month">Nov</div>
-                        <div class="event_day">21TH</div>
-                        <div class="event_descr">Latino night</div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium aperiam
-                            quia, id, voluptates repellat sunt tenetur non explicabo possimus perspiciatis qui error,
-                            ullam dolor autem reprehenderit vel fuga voluptate.</p>
-                    </div>
-                    <div class="event">
-                        <div class="event_title">Christmas</div>
-                        <div class="event_month">Dec</div>
-                        <div class="event_day">24TH</div>
-                        <div class="event_descr">Christmas for refuges</div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium aperiam
-                            quia, id, voluptates repellat sunt tenetur non explicabo possimus perspiciatis qui error,
-                            ullam dolor autem reprehenderit vel fuga voluptate.</p>
-                    </div>
-                    <div class="event">
-                        <div class="event_title">Finance Research</div>
-                        <div class="event_month">JAN</div>
-                        <div class="event_day">5TH</div>
-                        <div class="event_descr">Financer's Drink</div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi praesentium aperiam
-                            quia, id, voluptates repellat sunt tenetur non explicabo possimus perspiciatis qui error,
-                            ullam dolor autem reprehenderit vel fuga voluptate.</p>
-                    </div>
-                </div>
-
-            </section>
+#logo {
+    margin: 0 auto;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
 
 
-            <!--- Formulaire by Julie --->
+/*--------- WhoWeAre CSS by Jordan --------*/
 
-            <section class="formulaire">
-                <div class="titreform">
-                    <h2 id="formulaire" class="titreform">Need an event?</h2>
-                    <hr class="hr2">
-                </div>
-                <div class="form">
-                    <form method="post" action="traitement.php">
-                        <div class="namecontainer">
-                            <div class="name">
-                                <label for="Name*">Name *</label>
-                                <input type="text" name="Name*" id="Name*">
-                            </div>
-                            <div class="firstname">
-                                <label for="FirstName*">Firstname *</label>
-                                <input type="text" name="FirstName*" id="Firstname*">
-                            </div>
-                        </div>
-                        <div class="emailcontainer">
-                            <div class="label"><label for="email*">E-mail *</label></div>
-                            <div class="input"><input type="text" name="email*" id="email*"></div>
-                        </div>
-                        <div class="textarea">
-                            <div class="label"><label for="description">Description</label></div>
-                            <div class="textarea1"><textarea type="text" name="description" id="description"></textarea></div>
-                            <div class="label1"><input type="submit" value="Send" class="bouton" target="_blank"></div>
-                        </div>
+#Who_div0 {
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin:0 auto;
+    width:960px;
+    align-content: center;
+}
+    #Who_div0_section0 {
+        height: auto;
+        margin: 0 auto;
+        width: 700px;
+        margin-top: 75px;
+        margin-bottom: 90px;
+    }
+        #Who_div0_section0_div0 {
+            display: inline-flex;
+        }
+            #Who_div0_section0_div0_div0 {
+                width: 340px;
+            }
+                #Who_div0_section0_div0_div0_img0 {
+                    height: auto;
+                    margin: 5px;
+                    width: 100%;
+                }
+            #Who_div0_section0_div0_div1 {
+                width: 50%;
+                align-content: left;
+                margin-left: 30px;
+            }
+                #Who_div0_section0_div0_div1_div0 {
+                    height: 50%;
+                    text-align: left;
+                    align-content: center;
+                }
+                    #Who_div0_section0_div0_div1_div0_h20 {
+                        font-size: 30px;
+                        margin-bottom: 4px;
+                        font-family: 'Comfortaa-Regular';
+                        font-weight: bold;
+                    
+                    }
+                    /*#Who_div0_section0_div0_div1_div0_hr0 {
+                    }*/
+                #Who_div0_section0_div0_div1_div1 {
+                    height: 50%;
+                }
+                    #Who_div0_section0_div0_div1_div1_p0 {
+                        text-align: left;
+                        font-size: 1.25em;
+                        font-family: 'Roboto';
+                        color: grey;
+                        opacity: 0.85;
+                    }
 
-                    </form>
-                </div>
-            </section>
+        #Who_div0_section0_div1 {;
+            height: auto;
+            margin-top: 10px;
+        }
+            #Who_div0_section0_div1_p0 {
+                font-size: 1.25em;
+                font-family: 'Roboto';
+                color: grey;
+                opacity: 0.85;
+            }
+#floatting_box {
+	position: relative;
+	background-color: #B70000;
+	font-size: 16px;
+	border: 3px solid white;
+	left: -80px;
+	top: 65px;
+	width: 150px;
+	height: 40px;
+	padding-left: 4px;
+}
+#floatting_box_text {
+	color: white;
+	opacity: 0.85;
+}
 
-        </section>
 
-        <!--------- Footer by Youssef -------->
+/*--------- our Team CSS by Julie --------*/
 
 
-        <footer>
-            <div id="footerFull">
-                <div id="footertext">
-                    <p>MAIN EVENTERS</p>
-                </div>
+#team {
+    width: 960px;
+    margin: 0 auto;
+}
 
-                <div id="social">
-                    <img class="socialicon" src="./assets/images/social/linkedin.png" alt="">
-                    <img class="socialicon" src="./assets/images/social/instagram.png" alt="">
-                    <img class="socialicon" src="./assets/images/social/twitter.png" alt="">
-                    <img class="socialicon" src="./assets/images/social/facebook.png" alt="">
-                </div>
-            </div>
-        </footer>
-</body>
-</html>
+.cardContainer {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    width: 800px;
+    padding-right: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Comfortaa-Regular";
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: black;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: grey;
+}
+
+mark {
+    background-color: #B70000;
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: normal !important;
+    font-size: 15px;
+}
+
+hr {
+    width: 110px;
+    margin-top: 5px;
+    border-color: #B70000;
+}
+
+form {
+    width: 600px;
+    padding: 50px;
+}
+
+label {
+    padding: 10px;
+    display: block;
+
+}
+
+input {
+    display: block;
+    border: 1px #B70000 solid;
+    border-radius: 20px;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.namecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emailcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulaire {
+    width: 700px;
+    margin: 0 auto;
+    color: black;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+
+
+}
+
+.firstname {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    resize: auto;
+    border: 1px #B70000 solid;
+    border-radius: 20px;
+}
+
+.bouton {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.label1 {
+    display: block;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.bouton:hover {
+    background-color: #B70000;
+    color: white;
+}
+
+button:visited {
+    background-color: #B70000;
+    color: white;
+}
+
+.titreform {
+    text-align: left;
+    font-family: "Comfortaa-Regular";
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: black;
+
+}
+
+.hr2 {
+    width: 220px;
+    margin-top: 5px;
+    border-color: #B70000;
+    float: left;
+
+}
+
+/*--------- our Events by Antoine --------*/
+
+#our_events {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+
+}
+
+#conteneur_titre_events {
+    background-color: white;
+    width: 800px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#conteneur_events {
+    background-color: white);
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#our_events_title {
+    background-color: white;
+    width: 260px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: top;
+    position: relative;
+}
+
+
+#our_events_title h2 {
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+    height: 80px;
+    width: 260px;
+    overflow-x: visible;
+    position: absolute;
+    top: 0;
+}
+
+#events_title_ul {
+    width: 160px;
+    height: 2px;
+    background-color: #9D1111;
+    align-self: center;
+    position: absolute;
+    top: 65px;
+}
+
+
+#img_event_left {
+    width: 270px;
+    height: 100%;
+    background-color: white(22, 120, 150);
+
+
+}
+
+#img_event_right {
+    width: 270px;
+    height: 100%;
+    background-color: white77, 4, 4);
+    text-align: right;
+    margin-top: 15px;
+}
+
+.img_event {
+    width: 80%;
+}
+
+
+.event {
+    background-color: white;
+    width: 200px;
+    height: 230px;
+    box-shadow: 0px 1px 5px rgb(206, 205, 205);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+
+.event_title {
+    background: #9D1111 top;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 0, 8rem;
+    height: 20px;
+    width: 260px;
+}
+
+.event_month {
+    position: absolute;
+    top: 40px;
+    font-weight: normal;
+    color: #5DE2FA;
+
+}
+
+.event_day {
+    position: absolute;
+    top: 65px;
+    font-weight: normal;
+
+}
+
+.event_descr {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    width: 115px;
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+
+.event p {
+    background-color: white;
+    width: 100px;
+    height: 80px;
+
+    text-align: center;
+    font-size: 0.7em;
+    bottom: 0;
+    position: absolute;
+    padding: 0px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+/*--------- Footer CSS by Youssef --------*/
+
+footer {
+
+    color: black;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/swirl_pattern.png);
+    background-repeat: repeat;
+    font-size: 40px;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+#footerFull {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.socialicon {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 45px;
+}
