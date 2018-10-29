@@ -22,7 +22,6 @@ header {
     margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
         url("../images/header_Background.jpg");
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -71,6 +70,8 @@ a {
 /*--------- WhoWeAre CSS by Jordan --------*/
 
 #Who_div0 {
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
     background-color: white;
     margin:0 auto;
     width:960px;
@@ -102,14 +103,14 @@ a {
                 #Who_div0_section0_div0_div1_div0 {
                     height: 50%;
                     text-align: left;
-                    align-content-: center;
+                    align-content: center;
                 }
                     #Who_div0_section0_div0_div1_div0_h20 {
-                        font-size: 3.2em;
+                        font-size: 30px;
                         margin-bottom: 4px;
                         font-family: 'Comfortaa-Regular';
-                        font-weight: normal;
-                        text-decoration: underline solid red;
+                        font-weight: bold;
+                    
                     }
                     /*#Who_div0_section0_div0_div1_div0_hr0 {
                     }*/
@@ -151,19 +152,15 @@ a {
 }
 
 
-
-
 /*--------- our Team CSS by Julie --------*/
 
 
 #team {
-
     width: 960px;
     margin: 0 auto;
 }
 
 .cardContainer {
-
     width: 800px;
     display: flex;
     justify-content: center;
@@ -172,7 +169,6 @@ a {
 }
 
 .card {
-
     width: 800px;
     padding-right: 100px;
 }
